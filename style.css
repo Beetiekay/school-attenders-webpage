@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:root{
+    --bg-color:#fffafa;
+    --text-bg:#e6e6fa;
+    --text-color:#2f4f4f;
+    --black-color:#000;
+    --icons-color:#ff0000;
+    --text-color1: #008000;
+
+    --trans: .4s ease;
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 60%);
+    z-index: 10001;
+    /* margin: 14px 50px; */
+    /* padding: 10px 110px; */
+    background: var(--text-bg);
+}
+.header-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+}
+section{
+        /* padding: 20px 17% 60px; */
+}
+.sticky{
+    position: fixed;
+    left: 24%;
+}
+.logo h2{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.logo h2 span{
+    text-decoration: solid;
+    font-style: italic;
+    color: var(--text-color1);
+    
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+    font-size: 38px;
+}
+.socials a{
+    color: var(--text-color1);
+}
+.socials a i:hover{
+    color: var(--text-color);
+    transform: scale(1.2);
+}
+.exit{
+    display: flex;
+    gap: 4rem;
+    font-size: 20px;
+    text-decoration: solid;
+    color: var(--text-color1);
+}
+.exit h2{
+    font-size: 45px;
+    font-weight: 300;
+}
+.exit a{
+    font-size: 35px;
+    background: var(--text-color1);
+    color: var(--bg-color);
+    padding: 12px 20px;
+    border-radius: 45px;
+}
+.exit a:hover{
+    background: var(--icons-color);
+}
+.link{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    gap: 3rem;
+}
+.link-up a i{
+    margin-top: 8rem;
+}
+.container{
+    width: 100%;
+    height: 6vh
+}
+
+.attenders-content{
+    width: 100%;
+    height: 80vh;
+    gap: 4rem;
+}
+.attenders-content h2{
+    display: flex;
+    width: 20%;
+    font-size: 50px;
+    font-weight: 300;
+    border-bottom: 2px solid var(--text-color1);
+    margin-bottom: 50px;
+}
+.attenders-data{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    width: 50%;
+    background: var(--bg-color);
+    left: 25%;
+    gap: 8rem;
+}
+.attenders-data p{
+    color: var(--black-color);
+}
+.attenders-data h3{
+    font-weight: 600;
+    color: #097209;
+}
+.attenders-data p{
+    font-weight: 600;
+}
+button{
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 10%;
+    height: 8%;
+    border: none;
+    background: var(--text-color1);
+    border-radius: 2rem;
+    border: 2px solid var(--black-color);
+}
+button:hover{
+    background: var(--bg-color);
+}
+.end{
+    width: 100%;
+    height: 90vh;
+    background: var(--bg-color);
+}
+.end h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins' sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+    margin-top: 5rem;
+}
+.end p{
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins' sans-serif;
+    font-size: 20px;
+    border-radius: 2rem;
+    color: var(--black-color);
+    border-bottom: 10px solid var(--text-color1);
+    margin: 10px 800px;
+}
+.end-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: var(--text-bg);
+    width: 270px;
+    height: 400px;
+    margin: 8em;
+    border-radius: 0px 2rem 0px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 80%);
+}
+.card-icon i{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color1);
+    margin-top: 2rem;
+}
+.card-icon i:hover{
+    color: var(--text-color);
+    transform: scale(1.2);
+}
+.card h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: var(--text-color);
+}
+.card h1{
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: var(--black-color);
+    background: var(--text-bg);
+    font-size: 20px;
+    font-weight: 600;
+}
